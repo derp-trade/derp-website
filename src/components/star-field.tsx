@@ -1,39 +1,38 @@
-"use client"
+"use client";
 
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
 interface Star {
-  id: number
-  size: number
-  top: number
-  left: number
-  speed: number
-  delay: number
-  opacity: number
+  id: number;
+  size: number;
+  top: number;
+  left: number;
+  speed: number;
+  delay: number;
+  opacity: number;
 }
 
 export function StarField() {
-  const [stars, setStars] = useState<Star[]>([])
+  const [stars, setStars] = useState<Star[]>([]);
 
   useEffect(() => {
-    // Generate random stars
-    const newStars: Star[] = []
-    const starCount = Math.floor(window.innerWidth / 15) // Responsive star count
+    const newStars: Star[] = [];
+    const starCount = Math.floor(window.innerWidth / 15); // Responsive star count
 
     for (let i = 0; i < starCount; i++) {
       newStars.push({
         id: i,
-        size: Math.floor(Math.random() * 3) + 1,
+        size: Math.floor(Math.random() * 4) + 2,
         top: Math.floor(Math.random() * 100),
         left: Math.floor(Math.random() * 100),
         speed: Math.floor(Math.random() * 20) + 10,
         delay: Math.floor(Math.random() * 10),
-        opacity: Math.random() * 0.7 + 0.3,
-      })
+        opacity: Math.random() * 0.5 + 0.5,
+      });
     }
 
-    setStars(newStars)
-  }, [])
+    setStars(newStars);
+  }, []);
 
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
@@ -54,5 +53,5 @@ export function StarField() {
         />
       ))}
     </div>
-  )
+  );
 }
