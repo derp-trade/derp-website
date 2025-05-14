@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "derp.trade | Leverage Any Asset On-Chain",
     siteName: "derp.trade",
     images: {
-      url: "/images/og.png",
+      url: "/images/og1.png",
       width: 1200,
       height: 630,
     },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description: "Trade any asset with leverage using DERPs - the first perpetual trading protocol designed for assets without high volume or liquidity.",
     site: "@derp_trade",
     card: "summary_large_image",
-    images: "/images/og.png",
+    images: "/images/og1.png",
   },
   metadataBase: new URL("https://derp.trade/"),
 };
