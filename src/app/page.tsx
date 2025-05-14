@@ -32,34 +32,9 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="py-16 md:py-24 border-b border-dashed border-[#ff00ff50] bg-gradient-to-b from-black to-[#220033] z-10">
-        <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-6">
-            <div className="inline-block bg-[#ff00ff]/80 px-3 py-1 text-white/80 font-bold border border-white">
-              NEW ASSET CLASS
-            </div>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-relaxed text-[#00ffff] mb-6">
-              LEVERAGE <span className="text-[#ff00ff]">ANY TOKEN</span> WITH DERPS
-            </h1>
-            <p className="text-lg text-[#ffff00] mb-6">
-              The first perps trading protocol designed for tokens without high volume and liquidity
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button className="bg-[#ff00ff] hover:bg-[#cc00cc] text-white border border-white px-6 py-3 btn-pixel text-sm">
-                Start Trading (soon)
-              </Button>
-              <Link href="/#about">
-                <Button
-                  variant="outline"
-                  className="bg-transparent hover:bg-[#220033] text-[#00ffff] border border-[#00ffff] px-6 py-3 btn-pixel text-sm"
-                >
-                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </Link>
-            </div>
-          </div>
-          <div className="relative h-[300px] md:h-[400px] pixel-box">
+        <div className="mx-4 mx-auto grid gap-8 items-center">
+          <div className="relative w-[750px] h-[250px] pixel-box">
             <div className="absolute inset-0 bg-[url('/images/derps-hero.png')] bg-contain bg-center bg-no-repeat pixelated flex flex-col items-center justify-center">
-              <Image alt="Derps logo" src="/images/derps-logo.png" width={256} height={256} className="rounded-full pixelated opacity-50" />
             </div>
           </div>
         </div>
