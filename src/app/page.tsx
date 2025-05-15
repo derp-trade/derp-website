@@ -184,7 +184,9 @@ export default function LandingPage() {
               <span>Mainnet Launch: Q3 2025</span>
             </div>
             <Link
-              href="#"
+              href="https://t.me/derpsbeta"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#9C27FF] hover:bg-[#8622d8] text-white px-4 py-2 rounded-md transition-colors font-medium flex items-center gap-2 whitespace-nowrap"
             >
               <Users size={18} />
@@ -250,8 +252,8 @@ export default function LandingPage() {
               </div>
               <div>
                 <p className="text-lg">
-                  Trade with <span className="text-[#9C27FF] font-medium">leverage</span> to amplify your gains (or
-                  losses) based on your conviction
+                  Trade with <span className="text-[#9C27FF] font-medium">leverage</span> to amplify your gains
+                  based on your conviction
                 </p>
               </div>
             </li>
@@ -269,7 +271,7 @@ export default function LandingPage() {
 
           <div className="mt-8 text-center">
             <Link
-              href="https://docs.derp.trade/protocol/overview"
+              href="https://docs.derp.trade"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-[#AAFF00] hover:text-[#99e600] transition-colors"
@@ -397,7 +399,7 @@ export default function LandingPage() {
                     <h4 className="font-spline text-lg font-medium mb-1">Growing Industry Interest</h4>
                     <p className="text-gray-300">
                       Significant interest from professional traders and market makers who recognize the potential of
-                      our innovative approach to derivatives trading
+                      our approach to derivatives trading
                     </p>
                   </div>
                 </div>
@@ -418,7 +420,9 @@ export default function LandingPage() {
 
               <div className="mt-8">
                 <Link
-                  href="#"
+                  href="https://t.me/derpsbeta"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-[#9C27FF] hover:bg-[#8622d8] text-white px-6 py-3 rounded-md transition-colors font-medium flex items-center gap-2 w-fit"
                 >
                   <Users size={18} />
@@ -535,7 +539,7 @@ export default function LandingPage() {
               Launch Demo App
             </Link>
             <p className="text-sm text-gray-400 mt-4">
-              No wallet connection required for the demo. Just sign up with your email to get started.
+              No wallet connection required for the demo. Just open the app to get started.
             </p>
           </div>
         </div>
@@ -861,14 +865,16 @@ export default function LandingPage() {
 
           <div className="text-center">
             <Link
-              href="#"
+              href="https://t.me/derpsbeta"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#9C27FF] hover:bg-[#8622d8] text-white px-8 py-3 rounded-md transition-colors font-medium text-lg inline-flex items-center gap-2"
             >
               <Users size={20} />
-              Apply for Beta Access
+              Get Beta Access
             </Link>
             <p className="text-sm text-gray-400 mt-4">
-              Limited spots available. Applications reviewed on a rolling basis.
+              Limited spots available.
             </p>
           </div>
         </div>
@@ -956,7 +962,9 @@ export default function LandingPage() {
               Try Demo App
             </Link>
             <Link
-              href="#"
+              href="https://t.me/derpsbeta"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#9C27FF] hover:bg-[#8622d8] text-white px-8 py-3 rounded-md transition-colors font-medium text-lg flex items-center gap-2"
             >
               <Users size={20} />
@@ -987,13 +995,10 @@ export default function LandingPage() {
               </div>
               <p className="text-gray-400 mb-4">The next generation of on-chain derivatives trading.</p>
               <div className="flex gap-4">
-                <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
+                <Link target="_blank" rel="noreferrer noopener" href="https://x.com/derp_trade" className="text-gray-400 hover:text-[#AAFF00]">
                   Twitter
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
-                  Discord
-                </Link>
-                <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
+                <Link target="_blank" rel="noreferrer noopener" href="https://t.me/derpsbeta" className="text-gray-400 hover:text-[#AAFF00]">
                   Telegram
                 </Link>
               </div>
@@ -1012,7 +1017,12 @@ export default function LandingPage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
+                  <Link
+                    href="https://t.me/derpsbeta"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-[#AAFF00]"
+                  >
                     Beta Program
                   </Link>
                 </li>
@@ -1038,18 +1048,8 @@ export default function LandingPage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
-                    Blog
-                  </Link>
-                </li>
-                <li>
                   <Link href="#faq" className="text-gray-400 hover:text-[#AAFF00]">
                     FAQ
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
-                    Community
                   </Link>
                 </li>
               </ul>
@@ -1058,24 +1058,14 @@ export default function LandingPage() {
               <h4 className="font-spline text-lg font-bold mb-4">Legal</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
-                    Terms of Service
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
+                  <a href="/privacy.html" target="_blank" rel="noreferrer noopener" className="text-gray-400 hover:text-[#AAFF00]">
                     Privacy Policy
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
-                    Risk Disclosure
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
+                  <a href="mailto:contact@derp.trade" className="text-gray-400 hover:text-[#AAFF00]">
                     Contact
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
