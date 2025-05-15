@@ -24,7 +24,7 @@ export default function LandingPage() {
       {/* Header */}
       <header className="container mx-auto py-6 px-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <Image src="/images/logo_dark.jpg" alt="derp.trade logo" width={48} height={24} className="rounded-lg" />
+          <Image src="/images/logo_dark.jpg" alt="derp.trade logo" width={48} height={48} className="rounded-lg" />
           <span className="font-spline text-xl font-bold">derp.trade</span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
@@ -102,7 +102,7 @@ export default function LandingPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#AAFF00]/10 to-[#9C27FF]/10 rounded-xl blur-xl"></div>
           <div className="relative bg-black/40 border border-white/10 p-6 rounded-xl">
             <div className="flex justify-center mb-6">
-              <Image src="/images/logo_light.jpg" alt="derp.trade logo" width={200} height={200} className="rounded-lg" />
+              <Image src="/images/logo_light.jpg" alt="derp.trade logo" width={120} height={120} className="rounded-lg" />
             </div>
             <div className="bg-[#0B100F] p-6 rounded-lg border border-white/10">
               <h3 className="font-spline text-xl text-center mb-4">
@@ -215,7 +215,7 @@ export default function LandingPage() {
               src="/images/logo_light.jpg"
               alt="derp.trade logo"
               width={120}
-              height={60}
+              height={120}
               className="rounded-lg relative"
             />
           </div>
@@ -769,19 +769,6 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="flex justify-center mb-12">
-            <div className="relative">
-              <div className="absolute -inset-4 bg-[#9C27FF]/20 blur-xl rounded-full"></div>
-              <Image
-                src="/images/logo_dark.jpg"
-                alt="derp.trade logo"
-                width={120}
-                height={60}
-                className="rounded-lg relative"
-              />
-            </div>
-          </div>
-
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
             <div className="bg-[#0B100F] p-6 rounded-xl border border-white/10">
               <p className="font-medium text-lg">
@@ -986,7 +973,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Image src="/images/logo_dark.jpg" alt="derp.trade logo" width={40} height={20} className="rounded-lg" />
+                <Image src="/images/logo_dark.jpg" alt="derp.trade logo" width={40} height={40} className="rounded-lg" />
                 <span className="font-spline text-lg font-bold">derp.trade</span>
               </div>
               <p className="text-gray-400 mb-4">The next generation of on-chain derivatives trading.</p>
