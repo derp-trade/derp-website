@@ -467,7 +467,7 @@ export default function LandingPage() {
               <div className="bg-black/50 p-5 rounded-lg">
                 <p className="text-gray-300 italic mb-4">
                   &quot;I&apos;ve been looking for a solution to efficiently trade leveraged positions on smaller tokens.
-                  derp.trade&apos;s approach is innovative and promising.&quot;
+                  DERPs are very promising.&quot;
                 </p>
                 <p className="font-medium">— Market Maker & DeFi Strategist</p>
               </div>
@@ -563,11 +563,10 @@ export default function LandingPage() {
               {/* Vertical line */}
               <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-gradient-to-b from-[#AAFF00] to-[#9C27FF]"></div>
 
-              {/* Q1 2025 - Completed */}
               <div className="relative flex flex-col md:flex-row md:justify-between items-start mb-16">
                 <div className="flex flex-col items-start md:items-end md:w-[45%] md:text-right order-1 md:order-1">
                   <div className="bg-[#AAFF00]/20 text-[#AAFF00] px-3 py-1 rounded-full text-sm mb-2">COMPLETED</div>
-                  <h3 className="font-spline text-2xl font-bold mb-2">Q1 2025</h3>
+                  <h3 className="font-spline text-2xl font-bold mb-2">May 2025</h3>
                   <div className="bg-[#0B100F] p-4 rounded-lg border border-white/10 w-full">
                     <h4 className="font-spline text-lg font-medium mb-2 text-[#AAFF00]">Concept Validation</h4>
                     <p className="text-gray-300">
@@ -580,7 +579,6 @@ export default function LandingPage() {
                 <div className="md:w-[45%] order-2 md:order-2"></div>
               </div>
 
-              {/* Q2 2025 - Current */}
               <div className="relative flex flex-col md:flex-row md:justify-between items-start mb-16">
                 <div className="md:w-[45%] order-2 md:order-1"></div>
                 <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-[#AAFF00] border-4 border-[#0B100F] z-10"></div>
@@ -588,7 +586,7 @@ export default function LandingPage() {
                   <div className="bg-[#AAFF00]/20 text-[#AAFF00] px-3 py-1 rounded-full text-sm mb-2">
                     CURRENT PHASE
                   </div>
-                  <h3 className="font-spline text-2xl font-bold mb-2">Q2 2025</h3>
+                  <h3 className="font-spline text-2xl font-bold mb-2">May 2025</h3>
                   <div className="bg-[#0B100F] p-4 rounded-lg border border-white/10 w-full">
                     <h4 className="font-spline text-lg font-medium mb-2 text-[#AAFF00]">Demo & Community Building</h4>
                     <p className="text-gray-300">
@@ -613,7 +611,6 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              {/* Q3 2025 - Upcoming */}
               <div className="relative flex flex-col md:flex-row md:justify-between items-start mb-16">
                 <div className="flex flex-col items-start md:items-end md:w-[45%] md:text-right order-1 md:order-1">
                   <div className="bg-[#9C27FF]/20 text-[#9C27FF] px-3 py-1 rounded-full text-sm mb-2">UPCOMING</div>
@@ -644,7 +641,6 @@ export default function LandingPage() {
                 <div className="md:w-[45%] order-2 md:order-2"></div>
               </div>
 
-              {/* Q4 2025 - Future */}
               <div className="relative flex flex-col md:flex-row md:justify-between items-start">
                 <div className="md:w-[45%] order-2 md:order-1"></div>
                 <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full bg-[#9C27FF] border-4 border-[#0B100F] z-10"></div>
@@ -895,7 +891,7 @@ export default function LandingPage() {
           <div className="bg-black/30 p-6 rounded-xl border border-white/10">
             <h3 className="font-spline text-xl font-bold mb-3">What exactly is a DERP?</h3>
             <p className="text-gray-300">
-              A DERP (Derivative Exposure with Reduced Position) is a synthetic asset that allows traders to take
+              A DERP (decentralized perpetual) is a synthetic asset that allows traders to take
               leveraged long or short positions on any asset with an on-chain price feed, without requiring the
               traditional market infrastructure of order books and high liquidity.
             </p>
