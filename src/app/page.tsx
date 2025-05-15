@@ -997,6 +997,9 @@ export default function LandingPage() {
                 <Link target="_blank" rel="noreferrer noopener" href="https://t.me/derpsbeta" className="text-gray-400 hover:text-[#AAFF00]">
                   Telegram
                 </Link>
+                <Link target="_blank" rel="noreferrer noopener" href="https://github.com/derp-trade" className="text-gray-400 hover:text-[#AAFF00]">
+                  GitHub
+                </Link>
               </div>
             </div>
             <div>
