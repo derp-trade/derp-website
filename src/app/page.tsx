@@ -170,7 +170,7 @@ export default function LandingPage() {
       {/* Development Status Banner */}
       <section className="bg-[#9C27FF]/20 py-8 border-y border-[#9C27FF]/30">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-start justify-between gap-6">
+          <div className="flex flex-col md:flex-row md:items-center items-start justify-between gap-6">
             <div className="flex items-center gap-3">
               <Code className="text-[#AAFF00]" size={24} />
               <span className="text-lg font-medium">Development in Progress</span>
@@ -224,7 +224,7 @@ export default function LandingPage() {
         <div className="bg-black/30 p-8 rounded-xl border border-white/10 max-w-3xl mx-auto mb-16">
           <h3 className="font-spline text-2xl font-bold mb-6 text-center">How DERPs Work</h3>
           <ul className="space-y-6">
-            <li className="flex gap-4">
+            <li className="flex gap-4 items-center">
               <div className="bg-[#AAFF00] text-black rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0">
                 1
               </div>
@@ -235,7 +235,7 @@ export default function LandingPage() {
                 </p>
               </div>
             </li>
-            <li className="flex gap-4">
+            <li className="flex gap-4 items-center">
               <div className="bg-[#AAFF00] text-black rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0">
                 2
               </div>
@@ -246,7 +246,7 @@ export default function LandingPage() {
                 </p>
               </div>
             </li>
-            <li className="flex gap-4">
+            <li className="flex gap-4 items-center">
               <div className="bg-[#AAFF00] text-black rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0">
                 3
               </div>
@@ -257,7 +257,7 @@ export default function LandingPage() {
                 </p>
               </div>
             </li>
-            <li className="flex gap-4">
+            <li className="flex gap-4 items-center">
               <div className="bg-[#AAFF00] text-black rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0">
                 4
               </div>
@@ -491,8 +491,8 @@ export default function LandingPage() {
           <div className="bg-black/50 p-6 rounded-lg mb-8">
             <h3 className="font-spline text-xl font-medium mb-4 text-center">What&apos;s available in the demo:</h3>
             <ul className="space-y-3">
-              <li className="flex items-start gap-3">
-                <div className="bg-[#AAFF00] text-black rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <li className="flex items-center gap-3">
+                <div className="bg-[#AAFF00] text-black rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
                   ✓
                 </div>
                 <p className="text-gray-200">
@@ -500,8 +500,8 @@ export default function LandingPage() {
                   mechanisms
                 </p>
               </li>
-              <li className="flex items-start gap-3">
-                <div className="bg-[#AAFF00] text-black rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <li className="flex items-center gap-3">
+                <div className="bg-[#AAFF00] text-black rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
                   ✓
                 </div>
                 <p className="text-gray-200">
@@ -509,8 +509,8 @@ export default function LandingPage() {
                   stocks, and commodities
                 </p>
               </li>
-              <li className="flex items-start gap-3">
-                <div className="bg-[#AAFF00] text-black rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <li className="flex items-center gap-3">
+                <div className="bg-[#AAFF00] text-black rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
                   ✓
                 </div>
                 <p className="text-gray-200">
@@ -518,8 +518,8 @@ export default function LandingPage() {
                   multiplier
                 </p>
               </li>
-              <li className="flex items-start gap-3">
-                <div className="bg-[#AAFF00] text-black rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <li className="flex items-center gap-3">
+                <div className="bg-[#AAFF00] text-black rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
                   ✓
                 </div>
                 <p className="text-gray-200">
@@ -800,7 +800,7 @@ export default function LandingPage() {
             </div>
             <div className="bg-[#0B100F] p-6 rounded-xl border border-white/10">
               <p className="font-medium text-lg">
-                ✓ <span className="text-[#AAFF00]">Access traditional markets</span> on-chain
+                ✓ <span className="text-[#AAFF00]">Access traditional markets</span> directly from Solana
               </p>
             </div>
             <div className="bg-[#0B100F] p-6 rounded-xl border border-white/10">
@@ -832,26 +832,26 @@ export default function LandingPage() {
           <div className="bg-black/50 p-6 rounded-lg mb-8">
             <h3 className="font-spline text-xl font-medium mb-4 text-center">Beta tester benefits:</h3>
             <ul className="space-y-3">
-              <li className="flex items-start gap-3">
-                <div className="bg-[#9C27FF] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <li className="flex items-center gap-3">
+                <div className="bg-[#9C27FF] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
                   ✓
                 </div>
                 <p className="text-gray-200">Early access to new features and markets</p>
               </li>
-              <li className="flex items-start gap-3">
-                <div className="bg-[#9C27FF] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <li className="flex items-center gap-3">
+                <div className="bg-[#9C27FF] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
                   ✓
                 </div>
                 <p className="text-gray-200">Direct influence on product development</p>
               </li>
-              <li className="flex items-start gap-3">
-                <div className="bg-[#9C27FF] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <li className="flex items-center gap-3">
+                <div className="bg-[#9C27FF] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
                   ✓
                 </div>
                 <p className="text-gray-200">Exclusive community events and discussions</p>
               </li>
-              <li className="flex items-start gap-3">
-                <div className="bg-[#9C27FF] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <li className="flex items-center gap-3">
+                <div className="bg-[#9C27FF] text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
                   ✓
                 </div>
                 <p className="text-gray-200">Priority access to mainnet launch</p>
