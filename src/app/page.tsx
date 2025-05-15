@@ -52,7 +52,9 @@ export default function LandingPage() {
           </Link>
         </nav>
         <Link
-          href="#"
+          href="https://app.derp.trade"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-[#9C27FF] hover:bg-[#8622d8] text-white px-6 py-2 rounded-md transition-colors font-medium flex items-center gap-2"
         >
           <PlayCircle size={18} />
@@ -82,7 +84,9 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <Link
-              href="#"
+              href="https://app.derp.trade"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#AAFF00] hover:bg-[#99e600] text-black px-6 py-3 rounded-md transition-colors font-medium flex items-center gap-2"
             >
               <PlayCircle size={18} />
@@ -532,7 +536,9 @@ export default function LandingPage() {
 
           <div className="text-center">
             <Link
-              href="#"
+              href="https://app.derp.trade"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#AAFF00] hover:bg-[#99e600] text-black px-8 py-3 rounded-md transition-colors font-medium text-lg inline-flex items-center gap-2"
             >
               <PlayCircle size={20} />
@@ -938,7 +944,9 @@ export default function LandingPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              href="#"
+              href="https://app.derp.trade"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#AAFF00] hover:bg-[#99e600] text-black px-8 py-3 rounded-md transition-colors font-medium text-lg flex items-center gap-2"
             >
               <PlayCircle size={20} />
@@ -993,7 +1001,12 @@ export default function LandingPage() {
               <h4 className="font-spline text-lg font-bold mb-4">Product</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#AAFF00]">
+                  <Link
+                    href="https://app.derp.trade"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-[#AAFF00]"
+                  >
                     Demo App
                   </Link>
                 </li>
