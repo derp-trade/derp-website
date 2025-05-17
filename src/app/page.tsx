@@ -527,7 +527,7 @@ export default function LandingPage() {
                   ✓
                 </div>
                 <p className="text-gray-200">
-                  Fully <span className="text-[#AAFF00] font-medium">off-chain implementation</span> for testing
+                  Fully <span className="text-[#AAFF00] font-medium">on-chain implementation</span> for testing
                   purposes
                 </p>
               </li>
@@ -545,7 +545,7 @@ export default function LandingPage() {
               Launch Demo App
             </Link>
             <p className="text-sm text-gray-400 mt-4">
-              No wallet connection required for the demo. Just open the app to get started.
+              The demo app runs on Solana Devnet, only a wallet is required to start trading.
             </p>
           </div>
         </div>
