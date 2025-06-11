@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Spline_Sans } from "next/font/google";
 import type React from "react";
 import "./globals.css";
+import { AnalyticsProvider } from "@/providers/PostHogProvider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -50,7 +51,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} ${splineSans.variable} font-sans`}>{children}</body>
+      <body className={`${inter.variable} ${splineSans.variable} font-sans`}>
+        <AnalyticsProvider>
+          {children}
+        </AnalyticsProvider>
+        </body>
     </html>
   );
 }
