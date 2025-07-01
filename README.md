@@ -26,7 +26,7 @@ We welcome contributions to improve our landing page. If you find an issue or ha
 
 ## Quick Links
 
-- [Derp.trade App](https://app.derp.trade)
+- [Derp.trade App](https://simulator.derp.trade)
 - [Join the Beta Community (Telegram)](https://t.me/derpsbeta)
 - [Follow us on X](https://x.com/derp_trade)
 - [Read the Documentation](https://docs.derp.trade)
